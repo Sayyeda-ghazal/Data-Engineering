@@ -1,0 +1,17 @@
+SELECT
+    order_id,
+    customer_id,
+    amount,
+    row_num
+FROM (
+    SELECT
+        order_id,
+        customer_id,
+        amount,
+        ROW_NUMBER() OVER (
+            PARTITION BY customer_id
+            ORDER BY amount DESC
+        ) AS row_num
+    FROM orders
+) AS ranked_orders
+WHERE row_num <= 3;

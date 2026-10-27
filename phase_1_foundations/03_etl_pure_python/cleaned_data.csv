@@ -1,0 +1,4 @@
+id,city,name,country,email,age,is_active,postal_code,total_spent,total_orders
+101,Lahore,Ali Khan,Pakistan,ali@example.com,25,True,54000,12500.5,5
+102,Karachi,Sara Ahmed,Pakistan,sara@example.com,28,True,75000,18750.75,8
+105,Faisalabad,Hamza Malik,Pakistan,hamza@example.com,30,True,38000,15400.0,6

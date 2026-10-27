@@ -1,0 +1,82 @@
+[
+    {
+        "id": 101,
+        "name": "Ali Khan",
+        "email": "ali@example.com",
+        "age": 25,
+        "is_active": true,
+        "address": {
+            "city": "Lahore",
+            "country": "Pakistan",
+            "postal_code": "54000"
+        },
+        "orders": {
+            "total_orders": 5,
+            "total_spent": 12500.50
+        }
+    },
+    {
+        "id": 102,
+        "name": "Sara Ahmed",
+        "email": "sara@example.com",
+        "age": 28,
+        "is_active": true,
+        "address": {
+            "city": "Karachi",
+            "country": "Pakistan",
+            "postal_code": "75000"
+        },
+        "orders": {
+            "total_orders": 8,
+            "total_spent": 18750.75
+        }
+    },
+    {
+        "id": 103,
+        "name": "Usman Ali",
+        "email": "usman@example.com",
+        "age": "thirty",
+        "is_active": false,
+        "address": {
+            "city": "Islamabad",
+            "country": "Pakistan",
+            "postal_code": "44000"
+        },
+        "orders": {
+            "total_orders": 3,
+            "total_spent": 6200.00
+        }
+    },
+    {
+        "id": 104,
+        "name": "Ayesha Noor",
+        "email": "ayesha@example.com",
+        "age": 24,
+        "is_active": "yes",
+        "address": {
+            "city": "Multan",
+            "country": "Pakistan",
+            "postal_code": "60000"
+        },
+        "orders": {
+            "total_orders": "four",
+            "total_spent": 9100.25
+        }
+    },
+    {
+        "id": 105,
+        "name": "Hamza Malik",
+        "email": "hamza@example.com",
+        "age": 30,
+        "is_active": true,
+        "address": {
+            "city": "Faisalabad",
+            "country": "Pakistan",
+            "postal_code": "38000"
+        },
+        "orders": {
+            "total_orders": 6,
+            "total_spent": 15400.00
+        }
+    }
+]
